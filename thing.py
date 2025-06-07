@@ -129,7 +129,7 @@ class Tile:
 
         if self.tile_id == TILE_SHALLOW:
             self.spread_timer += 1
-            if self.spread_timer >= 60:
+            if self.spread_timer >= 30:
                 self.spread_timer = 0
 
                 has_water_neighbor = False
